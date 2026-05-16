@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCI Formosa - Cardioclínica e Imagem</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="icon" type="imagens/jpg" href="imagens/logo.jpg">
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a href="#" class="logo">
+  <img src="imagens/logo.jpg" alt="Logo CCI Formosa">
+</a>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#especialidades">Especialidades</a>
+      <a href="#procedimentos">Procedimentos</a>
+      <a href="#convenios">Convênios</a>
+      <a href="#comissao">Comissão Científica</a>
+      <a href="#contato">Contato</a>
+      <a href="#trabalhe-conosco">Trabalhe Conosco</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h2>Cuidando do seu coração e da sua saúde com excelência</h2>
+    <p>Atendimento humanizado, exames de alta precisão e especialistas qualificados.</p>
+    <a href="https://api.whatsapp.com/send?l=pt_br&phone=5561998404646" class="btn">Agende pelo WhatsApp</a>
+  </div>
+</section>
+
+<section id="sobre" class="section">
+  <div class="container">
+    <h2>Sobre a Clínica</h2>
+    <p>
+      A Cardioclínica e Imagem de Formosa é uma clínica nova na cidade de Formosa, inaugurada em Novembro/2022 é voltada para Cardiologia e Imagem porém recentemente fomos incluindo conosco diversos outros especialistas de outras áreas como Pneumologia, Vascular, Nutrição, Dermatologia, Ortopedia entre outras. Contamos com excelentes profissionais com formação nos melhores serviços do País. Aqui temos como base um atendimento diferenciado, onde você é atendido sem pressa e com atenção.
+    </p>
+  </div>
+</section>
+
+<section id="especialidades" class="section bg-light">
+  <div class="container">
+    <h2>Especialidades</h2>
+
+    <div class="cards">
+      <div class="card specialty-card" data-specialty="cardiologia">
+        Cardiologia
+      </div>
+
+      <div class="card specialty-card" data-specialty="arritmologia">
+        Arritmologia
+      </div>
+
+      <div class="card specialty-card" data-specialty="pneumologia">
+        Pneumologia
+      </div>
+
+      <div class="card specialty-card" data-specialty="vascular">
+        Cirurgia Vascular
+      </div>
+
+      <div class="card specialty-card" data-specialty="ortopedia">
+        Ortopedia
+      </div>
+
+      <div class="card specialty-card" data-specialty="dermatologia">
+        Dermatologia
+      </div>
+
+      <div class="card specialty-card" data-specialty="clinico">
+        Clínico Geral
+      </div>
+
+      <div class="card specialty-card" data-specialty="nutricao">
+        Nutrição
+      </div>
+
+      <div class="card specialty-card" data-specialty="nefrologia">
+        Nefrologia
+      </div>
+
+      <div class="card specialty-card" data-specialty="psicologia">
+        Psicologia
+      </div>
+
+      <div class="card specialty-card" data-specialty="ginecologia">
+        Ginecologia e Obstetrícia
+      </div>
+
+      <div class="card specialty-card" data-specialty="ultrassonografia">
+        Ultrassonografia
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="specialty-modal" id="specialtyModal">
+    <div class="specialty-modal-content">
+      <button class="close-modal" id="closeModal">&times;</button>
+
+      <div class="doctor-slider">
+        <button class="slider-btn prev" id="prevDoctor">&#10094;</button>
+
+        <div class="doctor-card">
+          <img id="doctorImage" src="" alt="Médico">
+          <h3 id="doctorName"></h3>
+          <p id="doctorTitle"></p>
+          <p id="doctorFormation"></p>
+        </div>
+
+        <button class="slider-btn next" id="nextDoctor">&#10095;</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="procedimentos" class="section bg-light">
+  <div class="container">
+    <h2>Procedimentos</h2>
+    <p>
+      Realizamos exames e procedimentos com tecnologia moderna e equipe
+      especializada para garantir precisão e segurança.
+    </p>
+
+<div class="cards">
+      <div class="card">Consulta Médica</div>
+      <div class="card">Avaliação de Marcapasso</div>
+      <div class="card">Risco Cirúrgico</div>
+      <div class="card">Doppler</div>
+      <div class="card">Ecocardiograma</div>
+      <div class="card">Eletrocardiograma</div>
+      <div class="card">Espirometria</div>
+      <div class="card">Polissonografia</div>
+      <div class="card">Holter</div>
+      <div class="card">Mapa</div>
+      <div class="card">Teste Ergométrico</div>
+      <div class="card">Tilt Teste</div>
+      <div class="card">USG</div>
+      <div class="card">Infiltração</div>
+    </div>
+
+  </div>
+</section>
+
+<section id="convenios" class="section">
+  <div class="container">
+    <h2>Convênios Aceitos</h2>
+    <p>Atendemos diversos convênios para oferecer mais comodidade aos nossos pacientes.</p>
+
+    <div class="convenios-grid">
+      <img src="imagens/convenios.png" alt="Convênios Aceitos">
+    </div>
+  </div>
+</section>
+
+<section id="comissao" class="section bg-light">
+  <div class="container">
+    <h2>Comissão Científica</h2>
+    <p>
+      Temos como proposito promover a integração entre o conhecimento, prática clínica e 
+      educação médica, fortalecendo a atuação multiprofissional e mantando o paciente 
+      como centro do cuidado.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Meta</h3>
+        <p>Estimular a atualização científica contínua por meio de encontros regulares, discursão de casos clínicos,
+           troca de experiências entre especialidades e incentivo a produção cientifica, contribuindo para melhores
+           desfechos clínicos e crescimento profissional.</p>
+      </div>
+
+      <div class="card">
+        <h3>Objetivos</h3>
+        <p>Promover a integração médica continuada;
+            Estimular a atualização em diretrizes e evidencias cientificas;                            
+            Favorecer a integração entre especialidades;
+            Criar espaço seguro para discursão de casos clínicos complexos.</p>
+      </div>
+
+      <div class="card">
+        <h3>Inovação</h3>
+        <p>Busca constante por novas práticas e tecnologias em saúde, 
+          incentivando a adoção de protocolos atualizados, ferramentas 
+          diagnósticas modernas e soluções que contribuam para a excelência 
+          no cuidado ao paciente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEÇÃO DE CONTATO CORRIGIDA -->
+<section id="contato" class="section">
+  <div class="container">
+    <h2>Contato</h2>
+
+    <div class="contato-grid">
+
+      <!-- ESQUERDA -->
+      <div class="contato-info">
+        <p><i class="fab fa-whatsapp" style="color: #25d366; margin-right: 10px;"></i> (61) 99840-4646</p>
+        <p><i class="fas fa-envelope" style="color: #ea4335; margin-right: 10px;"></i> cciformosaadm@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt" style="color: var(--primary ); margin-right: 10px;"></i> Rua Visconde de Porto Seguro, 857 - Centro, Formosa - GO</p>
+        <form>
+          <input type="text" placeholder="Seu nome">
+          <input type="email" placeholder="Seu e-mail">
+          <textarea placeholder="Sua mensagem"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+
+      <!-- DIREITA -->
+      <div class="contato-mapa">
+        <iframe
+          src="https://www.google.com/maps?q=Rua%20Visconde%20de%20Porto%20Seguro%20857,%20Formosa,%20GO&output=embed"
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="trabalhe-conosco" class="section">
+  <div class="container">
+    <h2>Trabalhe Conosco</h2>
+    <p>Envie seu currículo para nossa equipe de recrutamento.</p>
+    
+    <!-- Adicione esta div em volta do botão -->
+    <div style="text-align: center; margin-top: 30px;">
+      <a href="mailto:seuemail@gmail.com" class="btn">Enviar Currículo por E-mail</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 CCI Formosa - Todos os direitos reservados.</p>
+    <p>Desenvolvido por Samuel Vieira</p>
+  </div>
+</footer>
+
+<a href="https://api.whatsapp.com/send?l=pt_br&phone=5561998404646" class="whatsapp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+
+</body>
+</html>
