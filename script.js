@@ -303,16 +303,13 @@ ultrassonografia: [
     `
   },
   {
-    image: "imagens/medicos/ultrassonografia2.jpg",
+    image: "imagens/medicos/ultrassonografia2.png",
     name: "Dra. Patricia Bellei",
     title: "Ultrassonografista",
     formation: `
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Médica</li>
+        <li>Medicina Nuclear</li>
       </ul>
     `
   }
