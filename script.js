@@ -245,12 +245,10 @@ const doctorsData = {
       title: "Nefrologista",
       formation: `
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+        <li>Médica pela UNICEPLAC;</li>
+        <li>Residência em Clínica Médica no Hospital Regional de Sobradinho - DF;</li>
+        <li>Residência em Nefrologia no Hospital Regional de Sobradinho – DF;</li>
+        <li>Especialista em Nefrologia Ambulatorial, Nefrologia Intensiva, Hemodiálise e Diálise Peritoneal.</li>
     `
     }
   ],
