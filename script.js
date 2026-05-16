@@ -157,11 +157,6 @@ const doctorsData = {
       title: "Cirurgia Vascular/Angiologista",
       formation: `
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
       </ul>
     `
     }
@@ -217,7 +212,7 @@ const doctorsData = {
       title: "Clínico Geral",
       formation: `
       <ul>
-        <li>Médica pela Universidade Federal de Mato Grosso;</li>
+        <li>Médica pela Universidade Federal do Mato Grosso;</li>
         <li>Atuação como Clínica Geral no Hospital Estadual de Formosa;</li>
         <li>Atuação como Clínica Geral no Hospital São Camilo;</li>
       </ul>
