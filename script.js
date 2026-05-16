@@ -97,9 +97,11 @@ const doctorsData = {
       title: "Ecocardiografista",
       formation: `
         <ul>
-          <li>?;</li>
-          <li>?;</li>
-          <li>?;</li>
+          <li>Médico pela Universidade Federal de Minas Gerais;</li>
+          <li>Residência em Clínica Médica pelo Hospital Municipal Odilon Behrens;</li>
+          <li>Mestrado em Ciências Médicas Universidade de Brasília;</li>
+          </li>Residência em Cardiologia pelo Instituto Santa Marta de Ensino e Pesquisa;</li>
+          </li>Residência em Ecocardiografia pelo Instituto de Cardiologia e Transplantes do DF.</li>
         </ul> `
     }
   ],
@@ -215,11 +217,9 @@ const doctorsData = {
       title: "Clínico Geral",
       formation: `
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Médica pela Universidade Federal de Mato Grosso;</li>
+        <li>Atuação como Clínica Geral no Hospital Estadual de Formosa;</li>
+        <li>Atuação como Clínica Geral no Hospital São Camilo;</li>
       </ul>
     `
     }
