@@ -274,7 +274,7 @@ const doctorsData = {
       formation: `
       <ul>
         <li>Psicóloga clínica pela IESGO;</li>
-        <li>Especialista em Psicologia de Trânsito.</li>
+        <li>Pós-Graduação em Psicologia do Trânsito pelo Instituto Goiano de Análise do Comportamento – IGAC.</li>
       </ul>
     `
     }
