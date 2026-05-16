@@ -185,7 +185,10 @@ const doctorsData = {
       title: "Ortopedista",
       formation: `
       <ul>
+        <li>Universidade Regional de Gurupi (UNIRG);</li>
         <li>Residência em Ortopedia e Traumatologia pelo HFA;</li>
+        <li>Pós-Graduação em Cardiologia pelo IPEMED;</li>
+        <li>Curso de Infiltração Musculoesquelética pela Nexus.</li>
       </ul>
     `
     }
@@ -298,11 +301,9 @@ ultrassonografia: [
     title: "Ultrassonografista",
     formation: `
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Médica pela UniCEUB;</li>
+        <li>Residência Médica em Radiologia e Diagnóstico por Imagem pelo Hospital de Base</li>
+        <li>Fellow em Neurorradiologia pelo Sabin.</li>
       </ul>
     `
   },
